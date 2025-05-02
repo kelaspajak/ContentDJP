@@ -1,0 +1,35 @@
+{
+  "name": "kelaspajak/kelaspajak-prevent-copy",
+  "type": "flarum-extension",
+  "description": "Prevent copy blog & artikel",
+  "keywords": [
+    "flarum",
+    "extension",
+    "clipboard"
+  ],
+  "license": "MIT",
+  "repositories": [
+    {
+      "type": "path",
+      "url": "extensions/kelaspajak-prevent-copy"
+    }
+  ],
+  "require": {
+    "flarum/core": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Kelaspajak\\PreventCopy\\": "src/"
+    }
+  },
+  "extra": {
+    "flarum-extension": {
+      "title": "Prevent Copy",
+      "icon": {
+        "name": "fas fa-ban",
+        "backgroundColor": "#ff0000",
+        "color": "#ffffff"
+      }
+    }
+  }
+}
